@@ -8,5 +8,9 @@ edition = "2021"
 name = "chapter_5_blackhole"
 path = "03_Demo_Chapter_Torus/src/main.rs"
 
-[dependencies]
+[[bin]]
+name = "chapter_4_relativistic_disk"
+path = "05_Demo_Chapter_Relativistic_Disk/src/main.rs"
 
+[dependencies]
+tokio = { version = "1", features = ["full"] }
